@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.top-card{
+    display: flex;
+    padding-left: 20px;
+}
+
+.middle-card{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bottom-card{
+    display: flex;
+    transform: rotate(180deg);
+    padding-left: 20px;
+}
+
+.middle-number{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.card-heart:after{
+    content: "\2665";
+    color: red;
+    font-size: 70px;
+}
+
+.card-club:after{
+    content: "\2663";
+    color: black;
+    font-size: 70px;
+}
+
+.card-diamond:after{
+    content: "\2666";
+    color: red;
+    font-size: 70px;
+}
+
+.card-spade:after{
+    content: "\2660";
+    color: black;
+    font-size: 70px;
+}   
